@@ -1,0 +1,196 @@
+.requs-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .pullss{
+    padding-top: 2%;
+    width: 1000px;
+    margin: auto;
+  }
+  .requs-btn {
+    background-color: transparent;
+    color: #6b7280; /* muted-foreground (kulrang) */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .requs-btn:hover {
+    background-color: rgba(107, 114, 128, 0.1); /* hover bg (engil kulrang fon) */
+  }
+  
+  .requs-btn-active {
+    background-color: #3b82f6; /* primary: ko‘k */
+    color: #ffffff; /* primary-foreground: oq */
+  }
+  
+  .requs-search {
+    flex-grow: 1;
+  }
+  
+  .requs-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db; /* border: kulrang */
+    border-radius: 0.5rem;
+    outline: none;
+    color: #111827; /* qora */
+  }
+  
+  .requs-input:focus {
+    box-shadow: 0 0 0 2px #3b82f6; /* ring: ko‘k */
+    border-color: #3b82f6;
+  }
+  .requs-noresults {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid grey;
+
+     border-radius: 7px;
+    text-align: center;
+  }
+  
+  .requs-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .requs-muted {
+    color: #6b7280; /* text-muted-foreground */
+  }
+  
+  .requs-separator {
+    margin: 0 0.5rem;
+    color: #9ca3af;
+  }
+  
+  .requs-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+  }
+  
+  .requs-empty-title {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #6b7280;
+  }
+  
+  .requs-link {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .requs-link:hover {
+    text-decoration: underline;
+  }
+  
+  .requs-tip {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .requs-bold {
+    font-weight: 600;
+  }
+  
+  .requs-highlight {
+    color: #3b82f6;
+  }
+  .loaq{
+    display: flex;
+    gap: 30px;
+  }
+  .reaq{
+    box-shadow:  0px 1px 0px 0px gray;
+    padding: 5px 10px;
+    background-color: rgba(163, 163, 163, 0.288);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 40%;
+  }
+  .reqaa{
+    margin-top: 5%;
+   justify-content: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .reposec{
+    border: none;
+    background-color: rgba(163, 163, 163, 0);
+    cursor: pointer;
+    width: 90px;
+  }
+
+@media(max-width:768px){
+  .pullss{
+    padding-top: 2%;
+    width: 750px;
+    margin: auto;
+  }
+}
+@media(max-width:360px){
+  .pullss{
+    padding-top: 2%;
+    width: 360px;
+    margin: auto;
+  }
+  .loaq{
+    display: flex;
+    gap: 10px;
+  }
+  .reaq{
+    box-shadow:  0px 1px 0px 0px gray;
+    padding: 20px 20px;
+    background-color: rgba(163, 163, 163, 0.288);
+    width: 100%;
+    display: grid;
+    justify-content: space-evenly;
+    gap: 10%;
+  }
+  .requs-header {
+
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+  .requs-btn {
+    background-color: transparent;
+    color: #6b7280; /* muted-foreground (kulrang) */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border: none;
+  }
+ .requs-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db; /* border: kulrang */
+    border-radius: 0.5rem;
+    outline: none;
+    color: #111827; /* qora */
+    display: none;
+  }
+  .reqaa{
+    margin-top: 5%;
+   flex-direction: column-reverse;
+    display: flex;
+    gap: 10px;
+  
+  }
+}

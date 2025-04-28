@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .btn1{
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    color: grey;
+    font-size: 1.2em;
+    background-color: rgba(218, 218, 218, 0.137);
+  }
+  .btn1:hover{
+    background-color: rgba(128, 128, 128, 0.158);
+  }
+  .header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(218, 218, 218, 0.137);
+    margin: auto;
+  
+    box-shadow: 0px 0px 0px 1px rgba(128, 128, 128, 0.479);
+  }
+  .liga{
+    width: 1340px;
+    padding: 16px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .blok h4:hover{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.11);
+  }
+  .blok{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+  }
+  .fa-brands{
+    font-size: 1.9em;
+  }
+  .capilot{
+    
+    border: none; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  .Button-label1{
+    cursor: pointer;
+    padding: 5px;
+    border-radius:0px 5px 5px 0px ;
+    border: 1px solid rgba(128, 128, 128, 0.493);
+    position: relative;
+    display: inline-block;
+  }
+  .Button-label1:hover{
+    background-color: rgba(128, 128, 128, 0.342);
+  }
+  .Button-label2{
+    cursor: pointer;
+    padding: 5px;
+    border-radius:5px 0px 0px 5px ;
+    border: 1px solid rgba(128, 128, 128, 0.493);
+    position: relative;
+    display: inline-block;
+  }
+  .Button-label2:hover{
+    background-color: rgba(128, 128, 128, 0.342);
+  }
+   
+  .lblok{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .btn2{
+    border-radius: 6px;
+  padding: 6px 35px;
+  width: 260px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    background-color: rgba(218, 218, 218, 0.137);
+    text-align: start;
+     padding-left: 2%;
+     color: grey;
+     cursor: pointer;
+  }
+  .create{
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.342); 
+  padding: 5px 15px;
+   width: 80px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(218, 218, 218, 0.137);
+  }
+  
+  .create:hover{
+    background-color: rgba(128, 128, 128, 0.342);
+  }
+  .as{
+    width: 1px;
+    height: 25px;
+    background-color: grey;
+  }
+  .issues{
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    padding: 4px 8px ;
+    cursor: pointer;
+    color: grey;
+    font-size: 1.2em;
+    background-color: rgba(218, 218, 218, 0.137);
+    position: relative;
+    display: inline-block;
+  }
+  .issues:hover{
+    background-color: rgba(128, 128, 128, 0.342);
+  }
+  .pulls{
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    padding: 4px 8px ;
+    cursor: pointer;
+    color: grey;
+    font-size: 1.2em;
+    background-color: rgba(218, 218, 218, 0.137);
+    position: relative;
+    display: inline-block;
+  }
+  .pulls:hover{
+    background-color: rgba(128, 128, 128, 0.342);
+  }
+  
+  .notication{
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    padding: 4px 8px ;
+    cursor: pointer;
+    color: grey;
+    font-size: 1.2em;
+    background-color: rgba(218, 218, 218, 0.137);
+    position: relative;
+    display: inline-block;
+  }
+  .notication:hover{
+    background-color: rgba(128, 128, 128, 0.342);
+  }
+  .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: #fff;
+    padding: 6px 7px;
+    border-radius: 5px;
+    margin-top: 5px;
+    white-space: nowrap;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+  }
+  .tooltip-text1 {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: -130%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: #fff;
+    padding: 6px 7px;
+    border-radius: 5px;
+    margin-top: 5px;
+    white-space: nowrap;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+  }
+  .notication:hover .tooltip-text1 {
+    visibility: visible;
+    opacity: 1;
+  }
+  .pulls:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  .issues:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  .create:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  .Button-label1:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  .Button-label2:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  .pro{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .pro img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+  }
+  .moasq {
+    position: fixed; /* Fixed position to keep modal in place while scrolling */
+    top: 50px;
+    left: 65%;
+    width: 100%;
+    height: 100%;
+
+    z-index: 1000; /* Ensure modal is above other elements */
+ 
+  }
+  .cpainodo{
+
+  border-radius: 7px;
+    display: flex;gap: 10px;
+  }
+  .cpainodo:hover{
+    background-color: rgba(128, 128, 128, 0.301);
+  }
+  .qkisa{
+    box-shadow: 0px 1px 0px 0px gray;
+    padding: 10px;
+  }
+  .qkis{
+    padding: 10px;
+  }
+  .moasq-content {
+    width: 200px;
+    border: 1px solid gray;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    line-height: 30px;
+
+  }
+.create-button{
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.342);
+  background-color: rgba(218, 218, 218, 0.137);
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 65%;
+    right: 0;
+    bottom: 41%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 2px;
+    border-radius: 8px;
+    width: 40%;
+    border: 1px solid gray;
+    max-width: 400px;
+    position: relative;
+
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  @media(max-width:768px){
+    .liga{
+      width: 768px;
+      padding: 16px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+    }
+    .btn2{
+      border-radius: 6px;
+    padding: 7px 0px;
+    width: 40px;
+      border: 1px solid rgba(128, 128, 128, 0.329);
+      background-color: rgba(218, 218, 218, 0.137);
+      text-align: none;
+       padding-left: 2%;
+       color: grey;
+       cursor: pointer;
+    }
+    .akter{
+      display: none;
+    }
+    .lblok{
+      width: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .moasq-content {
+      margin-left: -40%;
+      width: 150px;
+      border: 1px solid gray;
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+      position: relative;
+      line-height: 30px;
+  
+    }
+     .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 30%;
+      right: 0;
+      bottom: 18%;
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+    }
+    .modal-content {
+      background-color: white;
+      padding: 2px;
+      border-radius: 8px;
+      width: 30%;
+      border: 1px solid gray;
+      max-width: 400px;
+      position: relative;
+  
+    }
+  }
+  @media(max-width:360px){
+    .liga{
+      width: 360px;
+      padding: 16px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+    }
+    .btn2{
+      border-radius: 6px;
+    padding: 7px 0px;
+    width: 40px;
+      border: 1px solid rgba(128, 128, 128, 0.329);
+      background-color: rgba(218, 218, 218, 0.137);
+      text-align: none;
+       padding-left: 2%;
+       color: grey;
+       cursor: pointer;
+    }
+    .akter{
+      display: none;
+    }
+    .lblok{
+      width: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .moasq-content {
+      margin-left: -40%;
+      width: 150px;
+      border: 1px solid gray;
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+      position: relative;
+      line-height: 30px;
+  
+    }
+    .lblok{
+      width: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+     .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: -7%;
+      right: 0;
+      bottom: 61%;
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+    }
+    .modal-content {
+      background-color: white;
+      padding: 2px;
+      border-radius: 8px;
+      width: 18%;
+      border: 1px solid gray;
+      max-width: 400px;
+      position: relative;
+  
+    }
+    .capilot{
+      
+      border: none; 
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: space-around;
+      
+    }
+    .as{
+      display: none;
+      width: 1px;
+      height: 25px;
+      background-color: grey;
+    }
+    .create-button{
+      display: none;
+    }
+    .issues{
+      display: none;
+    }
+    .pulls{
+      display: none;
+    }
+    .blok{
+      font-family: sans-serif;
+      display: flex;
+      align-items: center;
+      width: 160px;
+      justify-content: space-between;
+    }
+  }

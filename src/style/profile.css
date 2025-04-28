@@ -1,0 +1,365 @@
+.pro-card {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    padding: 1.5rem;
+
+    color: #333333; /* To'q kulrang */
+margin-top: 5%;
+   justify-content: space-between;
+    margin: auto;
+    gap: 30px;
+  }
+  
+  .pro-card img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 9999px;
+    border: 0.25rem solid #cccccc; /* Och kulrang chegara */
+  }
+  
+  .pro-card h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .pro-card p {
+    color: #666666; /* O'rtacha kulrang */
+  }
+  
+  .pro-card-button {
+    margin-top: 0.5rem;
+    background-color: #d9d9d9; /* Och kulrang tugma */
+    color: #333333; /* To'q kulrang yozuv */
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pro-card-button:hover {
+    background-color: #bfbfbf; /* Tugma hover holati uchun quyuqroq kulrang */
+  }
+  
+  .pro-card .pro-repositories {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  
+  .pro-card .pro-repositories h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+ .pro-repo-item {
+   
+    padding: 1rem;
+    background-color: #ffffff; /* Eng och kulrang */
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid grey;
+  }
+  .pro-repo-item2{
+    padding: 0.7rem;
+    background-color: #ffffff; /* Eng och kulrang */
+
+    margin-top: 0.5rem;
+    box-shadow: 0px 1px 0px 0px rgb(212, 212, 212);
+  }
+  .pro-card .pro-repo-item .pro-repo-name {
+    font-weight: 500;
+  }
+  
+  .pro-card .pro-repo-item .pro-repo-language {
+    color: #808080; /* Kulrang */
+  }
+  
+  .pro-card .pro-contributions {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  
+  .pro-card .pro-contributions h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  .yrt{
+    cursor: pointer;
+    margin-top: 0%;
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid grey;
+  }
+  
+  .pro-card .pro-contributions .pro-months {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.25rem;
+  }
+  
+  .pro-card .pro-contributions .pro-dot {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 9999px;
+  }
+  
+  .pro-card .pro-contributions .pro-dot.green {
+    background-color: #a0a0a0; /* Kulrang (yashil o'rniga) */
+  }
+  
+  .pro-card .pro-contributions .pro-dot.gray {
+    background-color: #d0d0d0; /* Eng och kulrang */
+  }
+  
+  .pro-card .pro-contributions p {
+    margin-top: 0.5rem;
+    color: #808080; /* O'rtacha kulrang */
+  }
+
+.propr{
+    width: 400px;
+
+}
+
+
+.prpra{
+    width: 100%;
+}
+.pro-repo-list{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+}
+.aqwasq{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.asjqjq{
+    
+    width: 4px;
+    height: 4px;
+}
+.asass{
+     height: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Doira shaklidagi sharlar */
+.h-4 {
+    height: 1rem; /* 16px */
+  }
+  
+  .w-4 {
+    width: 1rem; /* 16px */
+  }
+  
+  .rounded-full {
+    border-radius: 9999px; /* Mukammal doira */
+  }
+  
+  /* Ranglar */
+  .bg-red-500 {
+    background-color: #ef4444; /* Qizil */
+  }
+  
+  .bg-blue-500 {
+    background-color: #3b82f6; /* Ko'k */
+  }
+  
+  .bg-yellow-500 {
+    background-color: #facc15; /* Sariq */
+  }
+  
+  .bg-green-500 {
+    background-color: #22c55e; /* Yashil */
+  }
+  
+  .bg-pink-500 {
+    background-color: #ec4899; /* Pushti */
+  }
+  
+  .bg-gray-500 {
+    background-color: #6b7280; /* Kulrang */
+  }
+  
+  /* Qo'shimcha uslublar */
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .space-x-2 {
+    gap: 0.5rem; /* Elementlar orasidagi masofa */
+  }
+ .pro-follow-info{
+    display: flex;
+    gap: 10px;
+ }
+ .pro-edit-button{
+  padding: 10px;
+    width: 100%;
+    background-color: #e9e9e9;
+    border: 1px solid grey;
+ }
+.aksq{
+    box-shadow: -1px -1px 0px 0px rgb(212, 212, 212);
+    padding: 2px 20px;
+}
+.likk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.laksq {
+
+    height: 200px; /* Default height */  
+    overflow: hidden; /* Ensure content doesn't overflow */
+    opacity: 1; /* Default opacity */
+  }
+  .laslq{
+    
+    height: 100px; /* Default height */  
+    overflow: hidden; /* Ensure content doesn't overflow */
+    opacity: 1; /* Default opacity */
+  }
+  .yourreop{
+    padding: 8px;
+    width: 640px;
+  }
+  .aqwasq1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Default - 4 ta element bitta qator */
+    gap: 10px; /* Elementlar orasidagi bo'shliq */
+}
+  .yurt{
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid gray;
+    background-color: #f5f5f5;
+    padding: 9px 17px;
+  }
+  .aasqqksq{
+    display: flex;
+    gap: 10px;
+  }
+  @media(max-width:768px){
+    .aqwasq{
+      display: flex;
+      width: 90%;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .aqwasq1 {
+    grid-template-columns: 1fr; /* 468px dan kichik bo'lsa, bitta ustun */
+}
+  .pro-card .pro-repositories {
+    margin-top: 1.5rem;
+    width: 90%;
+  }
+  .pro-repo-list{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+}
+.pro-card {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  padding: 1.5rem 0rem;
+
+  color: #333333; /* To'q kulrang */
+margin-top: 5%;
+ justify-content: space-between;
+  margin: auto;
+  gap: 10px;
+}
+.yourreop{
+  padding: 8px;
+  width: 468px;
+}
+.yurt{
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid gray;
+  background-color: #f5f5f5;
+  width: 100px;
+}
+
+  }
+  @media(max-width:360px){
+    .pro-card img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 9999px;
+      border: 0.25rem solid #cccccc; /* Och kulrang chegara */
+    }
+    .pasas{
+      display: flex;
+    }
+    .pro-card {
+      width: 100%;
+      display: grid;
+      align-items: start;
+      padding: 1.5rem 0rem;
+    
+      color: #333333; /* To'q kulrang */
+    margin-top: 5%;
+     justify-content: space-between;
+      margin: auto;
+      gap: 10px;
+    }
+    .aqwasq{
+      display: flex;
+      width: 90%;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .pro-card .pro-repositories {
+    margin-top: 1.5rem;
+    width: 90%;
+  }
+  .pro-repo-list{
+    display: grid;
+    grid-template-columns: repeat(1 , 350px);
+    gap: 10px;
+}
+.yourreop{
+  padding: 8px;
+  width: 350px;
+}
+.pro-edit-button{
+  width: 90%;
+  background-color: #e9e9e9;
+  border: 1px solid grey;
+}
+.pro-card .pro-contributions .pro-months {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.25rem;
+
+}
+.prpra{
+width: 90%;
+}
+.propr{
+  width: 90% 
+}
+.aasqqksq{
+  display: flex;
+  gap: 10px;
+}
+.aqwasq1 {
+ flex-direction: column-reverse;
+  display: flex;
+}
+#eera{
+  width: 100%;
+}
+  }

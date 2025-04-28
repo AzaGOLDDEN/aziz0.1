@@ -1,0 +1,130 @@
+.repositoe{
+    width: 900px;
+    padding-top: 3%;
+    margin: auto;
+}
+.repositop{
+    padding: 10px 0px;
+    box-shadow: 0px 1px 0px 0px grey;
+}
+.lihroa{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+   
+}
+.ilkq{
+    padding: 2px 15px;
+    align-items: center;
+ 
+   gap: 10px;
+    display: flex;
+}
+.reaoca{
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(244, 243, 243);
+}
+.repoin{
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(244, 243, 243);
+    padding: 10px 10px;
+}
+.olpas{
+
+    font-size: 1.8em;
+}
+.inpo{
+    padding: 10px;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(178, 178, 178);
+    background-color: rgb(255, 255, 255);
+}
+.ouk{
+    line-height: 35px;
+    padding: 20px 0px;
+    box-shadow: 0px 1px 0px 0px rgba(128, 128, 128, 0.379);
+}
+.ouk1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0px;
+
+}
+.ouk2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0px;
+    box-shadow: 0px 1px 0px 0px rgba(128, 128, 128, 0.379);
+}
+.lihtor{
+    display: flex;
+}
+#lok{
+    font-size: 1.8em;
+      
+}
+#lk{
+    width: 20px;
+    height: 20px;
+}
+.re{
+    padding: 8px;
+    border: 1px solid grey
+    ;
+    background-color: rgb(244, 244, 243);
+    border-radius: 7px;
+}
+.ouk3{
+ line-height: 30px;
+    padding: 20px 0px;
+    box-shadow: 0px 1px 0px 0px rgba(128, 128, 128, 0.379);
+}
+
+.repobtn{
+    padding:10px 15px;
+    border-radius: 7px;
+    border:  none;
+    background-color: green;
+    color: white;
+    margin-left: 80%;
+}
+
+@media(max-width:768px){
+    .repositoe{
+        width: 768px;
+        padding-top: 3%;
+        margin: auto;
+    }
+    .reqaa{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media(max-width:360px){
+    .repositoe{
+        width: 360px;
+        padding-top: 3%;
+        margin: auto;
+    }
+    .reqaa{
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .repobtn{
+        padding:10px 15px;
+        border-radius: 7px;
+        border:  none;
+        background-color: green;
+        color: white;
+        margin-left: 50%;
+    }   
+}

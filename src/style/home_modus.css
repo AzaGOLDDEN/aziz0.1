@@ -1,0 +1,475 @@
+.bagram {
+    width: 1300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .lbagram {
+    width: 350px;
+    height: 681px;
+   border: 1px solid rgba(128, 128, 128, 0.233);
+    flex-shrink: 0; /* kerak, chunki u o'z o'lchamini yo'qotmasligi kerak */
+    position: sticky;
+    top: 0; /* sahifaning yuqorisidan qotib turadi */
+  }
+
+  .rbagram {
+    margin: 35px 20px;
+   justify-content: space-between;
+    display: flex;
+    width: 1000px;
+  }
+  .johaa{
+    display: flex;align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+  .reabtn{
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: green;
+  }
+  .rgear{
+     margin: auto;
+    width: 650px;
+  }
+ 
+  .imlo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  padding-top:20px ;
+
+  }
+  .imblck{
+    
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    border-radius: 20px;
+    background-color: white;
+    display: flex;justify-content: space-between;align-items: center;
+    padding: 8px;
+    cursor: pointer;
+  }
+  .cire{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 2px 16px;
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    background-color: rgb(224, 224, 224);
+  }
+  .cire1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 16px;
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    background-color: rgb(224, 224, 224);
+  }
+  .mais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bara{
+    display: grid;
+    grid-template-columns: repeat(2 ,320px);
+    gap: 10px;
+  }
+  .bara2{
+    display: grid;
+    grid-template-columns: repeat(2 ,320px);
+    gap: 10px;
+  }
+  .maha{
+    line-height: 25px;
+    padding: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    border-radius: 7px;
+
+  }
+  .asqee{
+     gap: 10px;
+    display: flex;  align-items: center;
+    justify-content: center;
+  }
+  .brle{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+  }
+  .altrioas1{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    width: 350px;
+  }
+  .inasq{
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    padding: 5px;
+  }
+  .iakq{
+    padding: 8px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+   color: white;
+  }
+  .altrioa{
+    display: flex;
+    gap: 10px;
+  }
+  .yeqw{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 0px 0px grey;
+  }
+  .readme{
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  .asdqe{
+    background-color: rgba(128, 128, 128, 0.13);
+    line-height: 20px;
+    padding: 15px;
+  }
+  .asqeel{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+  }
+  .hirtyaa{
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    padding: 6px;
+    border-radius: 5px;
+  }
+  .lgear{
+    padding: 15px;
+    width: 330px;
+  }
+  .lheaq{
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+  }
+  .dumaloq{
+    background-color: rgba(128, 128, 128, 0.301);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .chiqziq{
+    background-color: rgba(128, 128, 128, 0.315);
+    width: 2px;
+    height: 60px;
+    margin-left: 4px;
+  }
+  .deua{
+    width: 10px;
+    display: grid;
+
+  }
+  .lasdqwd{
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+  }
+  .lasdq{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .lqee{
+    padding: 7px;
+    box-shadow:  0px  1px 0px 0px gray;
+  }
+  .asqqe{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .feed-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    color: #1a1a1a;
+  }
+  
+  .feed-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .activity-block {
+    margin-bottom: 20px;
+  }
+  
+  .activity-header {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .repository-info {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+    font-size: 15px;
+  }
+  
+  .repository-name {
+    color: #0070f3;
+    font-weight: 500;
+  }
+  
+  .repository-stars {
+    color: #888;
+  }
+  
+  .section-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+  }
+  
+  .repository-card {
+    display: block;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .repository-card:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.01);
+  }
+  
+  .repository-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  
+  .repository-icon {
+    font-size: 16px;
+  }
+  
+  .repository-link {
+    color: #0070f3;
+    font-weight: 500;
+  }
+  
+  .repository-description {
+    color: #555;
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  .repository-language {
+    color: #999;
+    font-size: 13px;
+  }
+  .qhdaasda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .akro{
+    padding: 2px 7px;
+   display: flex;
+   gap: 10px;
+    height: 20px;
+  }
+  .fooaq{
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .aqqw{
+
+    text-align: center;
+    font-size: 0.9em;
+   line-height: 25px;
+  }
+footer{
+ 
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+@media(max-width:768px){
+  .bara{
+    display: grid;
+    grid-template-columns: repeat(2 ,240px);
+    gap: 10px;
+  }
+  .bagram {
+    width: 768px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+    .altrioa{
+    display: grid;
+    gap: 10px;
+  }
+  .lbagram {
+    width: 250px;
+    height: 681px;
+   border: 1px solid rgba(128, 128, 128, 0.233);
+    flex-shrink: 0; /* kerak, chunki u o'z o'lchamini yo'qotmasligi kerak */
+    position: sticky;
+    top: 0; /* sahifaning yuqorisidan qotib turadi */
+  }
+  .bara2{
+    display: grid;
+    grid-template-columns: repeat(1 ,495px);
+    gap: 10px;
+  }
+  .rbagram {
+    margin: 25px 10px;
+   justify-content: space-between;
+    display: flex;
+    width: 518px;
+  }
+  .lgear{
+    display: none;
+  }
+  .ebr__input{
+    width: 50%;
+  }
+  .rgear{
+    margin: auto;
+   width: 505px;
+ }
+  .imlo{
+    display: grid;
+grid-template-columns: repeat(2 , 1fr);
+  gap: 10px;
+    width: 100%;
+  padding-top:20px ;
+
+  }
+  .altrioas1{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    width: 495px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media(max-width:360px){
+  .bara{
+    display: grid;
+    grid-template-columns: repeat(1 ,350px);
+    gap: 10px;
+  }
+  .bagram {
+    width: 360px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+    .altrioa{
+    display: grid;
+    gap: 10px;
+  }
+  .lbagram {
+    width: 250px;
+    height: 681px;
+   border: 1px solid rgba(128, 128, 128, 0.233);
+    flex-shrink: 0; /* kerak, chunki u o'z o'lchamini yo'qotmasligi kerak */
+    position: sticky;
+    top: 0; /* sahifaning yuqorisidan qotib turadi */
+    display: none;
+  }
+  .bara2{
+    display: grid;
+    grid-template-columns: repeat(1 ,495px);
+    gap: 10px;
+  }
+  .rbagram {
+    margin: 25px 10px;
+   justify-content: space-between;
+    display: flex;
+    width: 518px;
+  }
+  .lgear{
+    display: none;
+  }
+ 
+  .rgear{
+    margin: auto;
+   width: 350px;
+ }
+  .imlo{
+    display: grid;
+grid-template-columns: repeat(1 , 1fr);
+  gap: 10px;
+    width: 100%;
+  padding-top:20px ;
+
+  }
+  .altrioas1{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    width: 350px;
+  }
+  .mais{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .maha{
+    width: 350px;
+    line-height: 25px;
+    padding: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    border-radius: 7px;
+
+  }
+}

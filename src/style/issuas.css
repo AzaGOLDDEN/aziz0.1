@@ -1,0 +1,173 @@
+.issuaus{
+    display: flex;
+    width: 1300px;
+}
+.iisua{
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.iisua:hover{
+    background-color: rgba(128, 128, 128, 0.37);
+    font-weight: 900;
+}
+.lissuas{
+    width: 300px;
+    height: 570px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 1px 0px 0px 0px gray;
+}
+.iisu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.iisu .pastgatush {
+    display: none;
+    width: 3px;
+    height: 27px;
+    margin-top: 8px;
+    background-color: #1768ff;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  /* Fokus bo‘lsa yoki hover qilinsa span ko‘rinadi */
+  .iisu:focus-within .pastgatush,
+  .iisu:hover .pastgatush {
+    display: inline-block;
+  }
+  .rissus{
+    width: 1000px;
+    padding: 30px 10px;
+  }
+  .issis{
+    padding: 9px;
+    border-radius: 7px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+  .rissua{
+    display: flex;
+    justify-content: space-between;
+  }
+  .issus-container {
+    padding: 1rem;
+  }
+  .pastgatush.active {
+    background-color: var(--primary); /* yoki kerakli rang */
+    height: 2px;
+    display: block;
+  }
+  
+  .issus-button {
+    background-color: rgba(128, 128, 128, 0.192);
+  border-radius: 0px 5px 5px 0px ;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .issus-input {
+    border: 1px solid #d4d4d8; /* zinc-300 */
+    border-radius: 5px 0px 0px 5px ;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .issus-results {
+
+    padding: 1rem;
+    border: 1px solid #e4e4e7; /* zinc-200 */
+    border-radius: 0.375rem;
+  }
+  
+  .issus-info {
+
+    margin-bottom: 0.5rem;
+  }
+  
+  .issus-title {
+    text-align: center;
+
+    font-weight: 600;
+  }
+  
+  .issus-text {
+    text-align: center;
+
+  }
+  .ixter{
+    display: flex;
+  }
+  @media(max-width:768px){
+    .issuaus{
+      display: flex;
+      width: 768px;
+  }
+  .rissua{
+    width: 508px;
+  }
+  .rissus{
+    width: 550px;
+    padding: 30px 10px;
+  }
+  .lissuas{
+    width: 240px;
+    height: 570px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 1px 0px 0px 0px gray;
+  }
+  }
+  @media(max-width:360px){
+    .issuaus{
+      display: flex;
+      width: 360px;
+  }
+  .iisua{
+    width: 40px;
+    display: flex;
+    gap: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.asrta{
+  display: none;
+}
+.pastgatush {
+  display: none;
+  width: 3px;
+  height: 27px;
+  margin-top: 8px;
+  background-color: #1768ff;
+  color: white;
+  border-radius: 6px;
+}
+.rissua{
+  font-size: 0.6em;
+}
+.rissua{
+ display: none;
+}
+.rissus{
+  width: 360px;
+  padding: 30px 5px;
+}
+.lissuas{
+  width: 50px;
+  height: 570px;
+  margin: auto;
+  padding: 5px;
+  box-shadow: 1px 0px 0px 0px gray;
+}
+  }
